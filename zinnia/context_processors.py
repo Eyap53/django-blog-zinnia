@@ -3,7 +3,7 @@ from zinnia import __version__
 from zinnia import settings
 
 
-def version(request):
+def zinnia_values(request):
     """
     Add version of Zinnia to the context.
     """
